@@ -1,0 +1,11 @@
+C:\Users\Qbox\source\repos\PO_Z1_L2\PO_Z1_L2\bin\Debug\netcoreapp3.1\PO_Z1_L2.exe
+C:\Users\Qbox\source\repos\PO_Z1_L2\PO_Z1_L2\bin\Debug\netcoreapp3.1\PO_Z1_L2.deps.json
+C:\Users\Qbox\source\repos\PO_Z1_L2\PO_Z1_L2\bin\Debug\netcoreapp3.1\PO_Z1_L2.runtimeconfig.json
+C:\Users\Qbox\source\repos\PO_Z1_L2\PO_Z1_L2\bin\Debug\netcoreapp3.1\PO_Z1_L2.runtimeconfig.dev.json
+C:\Users\Qbox\source\repos\PO_Z1_L2\PO_Z1_L2\bin\Debug\netcoreapp3.1\PO_Z1_L2.dll
+C:\Users\Qbox\source\repos\PO_Z1_L2\PO_Z1_L2\bin\Debug\netcoreapp3.1\PO_Z1_L2.pdb
+C:\Users\Qbox\source\repos\PO_Z1_L2\PO_Z1_L2\obj\Debug\netcoreapp3.1\PO_Z1_L2.csprojAssemblyReference.cache
+C:\Users\Qbox\source\repos\PO_Z1_L2\PO_Z1_L2\obj\Debug\netcoreapp3.1\PO_Z1_L2.AssemblyInfoInputs.cache
+C:\Users\Qbox\source\repos\PO_Z1_L2\PO_Z1_L2\obj\Debug\netcoreapp3.1\PO_Z1_L2.AssemblyInfo.cs
+C:\Users\Qbox\source\repos\PO_Z1_L2\PO_Z1_L2\obj\Debug\netcoreapp3.1\PO_Z1_L2.dll
+C:\Users\Qbox\source\repos\PO_Z1_L2\PO_Z1_L2\obj\Debug\netcoreapp3.1\PO_Z1_L2.pdb

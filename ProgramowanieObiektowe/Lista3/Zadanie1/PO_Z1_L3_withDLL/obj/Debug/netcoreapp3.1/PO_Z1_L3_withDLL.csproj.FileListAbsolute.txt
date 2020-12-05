@@ -1,0 +1,15 @@
+C:\Users\Qbox\source\repos\PO_Z1_L3_withDLL\PO_Z1_L3_withDLL\bin\Debug\netcoreapp3.1\PO_Z1_L3_withDLL.exe
+C:\Users\Qbox\source\repos\PO_Z1_L3_withDLL\PO_Z1_L3_withDLL\bin\Debug\netcoreapp3.1\PO_Z1_L3_withDLL.deps.json
+C:\Users\Qbox\source\repos\PO_Z1_L3_withDLL\PO_Z1_L3_withDLL\bin\Debug\netcoreapp3.1\PO_Z1_L3_withDLL.runtimeconfig.json
+C:\Users\Qbox\source\repos\PO_Z1_L3_withDLL\PO_Z1_L3_withDLL\bin\Debug\netcoreapp3.1\PO_Z1_L3_withDLL.runtimeconfig.dev.json
+C:\Users\Qbox\source\repos\PO_Z1_L3_withDLL\PO_Z1_L3_withDLL\bin\Debug\netcoreapp3.1\PO_Z1_L3_withDLL.dll
+C:\Users\Qbox\source\repos\PO_Z1_L3_withDLL\PO_Z1_L3_withDLL\bin\Debug\netcoreapp3.1\PO_Z1_L3_withDLL.pdb
+C:\Users\Qbox\source\repos\PO_Z1_L3_withDLL\PO_Z1_L3_withDLL\bin\Debug\netcoreapp3.1\dllZad1.dll
+C:\Users\Qbox\source\repos\PO_Z1_L3_withDLL\PO_Z1_L3_withDLL\obj\Debug\netcoreapp3.1\PO_Z1_L3_withDLL.csprojAssemblyReference.cache
+C:\Users\Qbox\source\repos\PO_Z1_L3_withDLL\PO_Z1_L3_withDLL\obj\Debug\netcoreapp3.1\PO_Z1_L3_withDLL.csproj.CoreCompileInputs.cache
+C:\Users\Qbox\source\repos\PO_Z1_L3_withDLL\PO_Z1_L3_withDLL\obj\Debug\netcoreapp3.1\PO_Z1_L3_withDLL.AssemblyInfoInputs.cache
+C:\Users\Qbox\source\repos\PO_Z1_L3_withDLL\PO_Z1_L3_withDLL\obj\Debug\netcoreapp3.1\PO_Z1_L3_withDLL.AssemblyInfo.cs
+C:\Users\Qbox\source\repos\PO_Z1_L3_withDLL\PO_Z1_L3_withDLL\obj\Debug\netcoreapp3.1\PO_Z1_L3_withDLL.csproj.CopyComplete
+C:\Users\Qbox\source\repos\PO_Z1_L3_withDLL\PO_Z1_L3_withDLL\obj\Debug\netcoreapp3.1\PO_Z1_L3_withDLL.dll
+C:\Users\Qbox\source\repos\PO_Z1_L3_withDLL\PO_Z1_L3_withDLL\obj\Debug\netcoreapp3.1\PO_Z1_L3_withDLL.pdb
+C:\Users\Qbox\source\repos\PO_Z1_L3_withDLL\PO_Z1_L3_withDLL\obj\Debug\netcoreapp3.1\PO_Z1_L3_withDLL.genruntimeconfig.cache
