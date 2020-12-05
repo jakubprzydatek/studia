@@ -1,3 +1,6 @@
 # Programowanie obiektowe
 
-### Listy 2-4 **C#**
+###**C#**
+* lista 2
+* lista 3
+* lista 4
