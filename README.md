@@ -6,7 +6,7 @@ Zadania i projekty wykonane podczas studiów na Instytucie Informatyki UWr
 * Analiza matematyczna
 * Wstęp do informatyki
 * Wstęp do programowania w języku C
-  *Projekt 'e-lib' - baza danych e-booków
+*  *Projekt 'e-lib' - baza danych e-booków
 * Podstawowy warsztat informatyka
 
 ### Semestr II
