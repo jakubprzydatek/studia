@@ -23,3 +23,9 @@ Zadania i projekty wykonane podczas studiów na Instytucie Informatyki UWr
 * Analiza numeryczna L
 * Matematyka dyskretna L
 * Współczesne stosunki międzynarodowe
+
+### semestr IV
+* Kurs projektowania aplikacji z bazami danych
+* Projektowanie obiektowe oprogramowania
+* Algorytmy i struktury danych
+* Testowanie gier
