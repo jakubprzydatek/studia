@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+	<script type='text/javascript'>
+    function GetMap() {
+        var map = new Microsoft.Maps.Map('#myMap', {
+            credentials: 'Aq1pHBuXcN4VABhVT2pZ4SrPJjNALwdXKP5O7O8zbrMtRxEZkbmt3HGGTh3wGG3G',
+            mapTypeId: Microsoft.Maps.MapTypeId.aerial,
+            center: new Microsoft.Maps.Location(52.3119, 19.3766),
+            zoom: 6
+        });
+        var locs1 = Microsoft.Maps.TestDataGenerator.getLocations(3, map.getBounds());
+
+        Microsoft.Maps.loadModule('Microsoft.Maps.HeatMap', function () {
+            var heatmap1 = new Microsoft.Maps.HeatMapLayer(locs1, {
+                intensity: 0.79,
+                radius: 20000,
+                unit: 'meters', 
+                colorGradient: {
+                    '0': 'Blue',
+                    '0.4': 'Purple',
+                    '0.6': 'Red',
+                    '0.8': 'Yellow',
+                    '1': 'White'
+                }
+            });
+            map.layers.insert(heatmap1);
+        });
+
+        var locs2 = Microsoft.Maps.TestDataGenerator.getLocations(10, map.getBounds());
+
+        Microsoft.Maps.loadModule('Microsoft.Maps.HeatMap', function () {
+            var heatmap2 = new Microsoft.Maps.HeatMapLayer(locs2, {
+                intensity: 0.6,
+                radius: 50000,
+                unit: 'meters', 
+                colorGradient: {
+                    '0': 'Blue',
+                    '0.4': 'Purple',
+                    '0.6': 'Red',
+                    '0.8': 'Yellow',
+                    '1': 'White'
+                }
+            });
+            map.layers.insert(heatmap2);
+        });
+
+        var locs3 = Microsoft.Maps.TestDataGenerator.getLocations(80, map.getBounds());
+
+        Microsoft.Maps.loadModule('Microsoft.Maps.HeatMap', function () {
+            var heatmap3 = new Microsoft.Maps.HeatMapLayer(locs3, {
+                intensity: 0.25,
+                radius: 100000,
+                unit: 'meters', 
+                colorGradient: {
+                    '0': 'Blue',
+                    '0.4': 'Purple',
+                    '0.6': 'Red',
+                    '0.8': 'Yellow',
+                    '1': 'White'
+                }
+            });
+            map.layers.insert(heatmap3);
+        });
+    }
+    </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
+    <style>
+        .contourLegend {
+            margin-left: 10px;
+            float: left;
+            text-align: center;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+    <div class="contourLegend">
+        <p>Liczba osób chorych na COVID-19 na kilometr kwadratowy</p>
+        <div style="background-color: blue">1 os/km2</div>
+        <div style="background-color: purple">2 os/km2</div>
+        <div style="background-color: red">5 os/km2</div>
+        <div style="background-color: yellow">10 os/km2</div>
+    </div>
+</body>
+</html>

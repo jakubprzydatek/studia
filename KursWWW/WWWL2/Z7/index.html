@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 7</title>
+    <style>
+        .field{
+            border-style: solid;
+            border-width: 2px;
+            width: 100px;
+            transition: width 2s;
+        }
+        .field:focus{
+            border-style: dotted;
+            border-width: 5px;
+            width: 200px;
+        }
+        .btn{
+            width: 100px;
+            height: 100px;
+            border-width: 2px;
+            border-style: solid;
+            background: rgb(36,3,0);
+            background: linear-gradient(90deg, rgba(36,3,0,0.5032387955182073) 0%, rgba(231,127,3,1) 50%, rgba(247,255,0,0.623686974789916) 97%);
+            font-size: medium;
+        }
+        .btn:hover{
+            color:white;
+            text-decoration: underline overline dotted red;
+            font-size: x-large;
+            text-shadow: 2px 2px #6f00ff;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form>
+        <label for="imie">Imię:</label><br>
+        <input class="field" type="text" id="imie" name="imie"><br>
+
+        <label for="nazwisko">Nazwisko:</label><br>
+        <input class="field" type="text" id="nazwisko" name="nazwisko"><br>
+
+        <label for="adres">Adres:</label><br>
+        <input class="field" type="text" id="adres" name="adres"><br>
+
+        <input class="btn" type="submit" value="Wyślij">
+    </form>
+</body>

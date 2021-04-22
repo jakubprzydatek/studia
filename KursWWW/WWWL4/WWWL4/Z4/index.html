@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <title>Zadanie 4</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+    <div class="users-container">
+        <table id="users-table">
+            <tr>
+                <th>Imię</th> <th>Nazwisko</th> <th>Miasto</th> <th>Kod pocztowy</th> <th>Data urodzenia</th>
+            </tr>
+        </table>
+    </div>
+    <button id="showBtn">Dodaj</button>
+    <div id="dialog" title="Wstaw dane użytkownika">
+        <div class="modal-content">
+            <form>
+            <fieldset>
+                <label for="name">Imię</label>
+                <input type="text" name="name" id="name" value="imie">
+                <label for="surname">Nazwisko</label>
+                <input type="text" name="surname" id="surname" value="nazwisko">
+                <label for="city">Miasto</label>
+                <input type="text" name="city" id="city" value="miasto">
+                <label for="kod">Kod pocztowy</label>
+                <input type="text" name="kod" id="kod" value="kod pocztowy">
+                <label for="date">Data</label>
+                <input type="text" name="date" id="datepicker">
+
+            </fieldset>
+            </form> 
+            <button id="addUsrBtn">Dodaj</button>
+        </div>
+      </div>
+      <div id="removeDialog" title="Czy na pewno usunąć?">
+          <button id="yesBtn">Tak</button>
+          <button id="noBtn">Nie</button>
+      </div>
+      
+      <script src="script.js"></script>
+</body>

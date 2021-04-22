@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+	<script type='text/javascript'>
+
+    function GetMap() {
+        var map = new Microsoft.Maps.Map('#myMap', {
+            credentials: 'Aq1pHBuXcN4VABhVT2pZ4SrPJjNALwdXKP5O7O8zbrMtRxEZkbmt3HGGTh3wGG3G',
+            center: new Microsoft.Maps.Location(52.3119, 19.3766),
+            zoom: 6
+        });
+
+        var center = map.getCenter();
+
+
+        var layer1 = new Microsoft.Maps.Layer();
+        var loc1 = new Microsoft.Maps.Location(50.9540, 21.3738);
+        var pin1 = new Microsoft.Maps.Pushpin(loc1, {
+            title: 'Strefa 1',
+            subTitle: 'Lokalizacja strefy 1',
+			color: 'red',
+            text: 'S1'
+        });
+
+        var locOneRect= [
+            new Microsoft.Maps.Location(loc1.latitude - 0.005, loc1.longitude - 0.006),
+            new Microsoft.Maps.Location(loc1.latitude + 0.005, loc1.longitude - 0.005),
+            new Microsoft.Maps.Location(loc1.latitude + 0.005, loc1.longitude + 0.0042),
+            new Microsoft.Maps.Location(loc1.latitude - 0.005, loc1.longitude + 0.009)
+        ];
+
+        //Create a polygon
+        var polygon1 = new Microsoft.Maps.Polygon(locOneRect, {
+            fillColor: 'rgba(252, 40, 3, 0.5)',
+            strokeColor: 'red',
+            strokeThickness: 2
+        });
+        layer1.add(polygon1);
+        layer1.add(pin1);
+        map.layers.insert(layer1);
+
+        Microsoft.Maps.Events.addHandler(layer1, 'click', function (e) {
+            document.getElementById('currentArea').innerHTML = 'Strefa 1';
+        });
+
+
+        var layer2 = new Microsoft.Maps.Layer();
+        var loc2 = new Microsoft.Maps.Location(51.0799, 17.0642);
+        var pin2 = new Microsoft.Maps.Pushpin(loc2, {
+            title: 'Strefa 2',
+            subTitle: 'Lokalizacja strefy 2',
+			color: 'green',
+            text: 'S2'
+        });
+
+        var locOneRect= [
+            new Microsoft.Maps.Location(loc2.latitude - 0.01, loc2.longitude - 0.01),
+            new Microsoft.Maps.Location(loc2.latitude + 0.0035, loc2.longitude - 0.01),
+            new Microsoft.Maps.Location(loc2.latitude + 0.005, loc2.longitude + 0.0042),
+            new Microsoft.Maps.Location(loc2.latitude - 0.005, loc2.longitude + 0.009)
+        ];
+
+        //Create a polygon
+        var polygon2 = new Microsoft.Maps.Polygon(locOneRect, {
+            fillColor: 'rgba(115, 252, 3, 0.5)',
+            strokeColor: 'green',
+            strokeThickness: 2
+        });
+        layer2.add(polygon2);
+        layer2.add(pin2);
+        map.layers.insert(layer2);
+
+        Microsoft.Maps.Events.addHandler(layer2, 'click', function (e) {
+            document.getElementById('currentArea').innerHTML = 'Strefa 2';
+        });
+
+
+    }
+
+
+    </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
+</head>
+<body>
+    <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+    <div id="currentArea"></div>
+</body>
+</html>

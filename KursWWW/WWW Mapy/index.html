@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=Aq1pHBuXcN4VABhVT2pZ4SrPJjNALwdXKP5O7O8zbrMtRxEZkbmt3HGGTh3wGG3G' async defer></script>
+</head>
+<body>
+    <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+    <div class="pushpin-list">
+        <div class="pl-title">
+            Zapisane lokalizacje
+        </div>
+        <div class="pl-content">
+            <form>
+                <select id="points" name="points" size="10" style="width:200px;">
+                </select><br><br>
+              </form>
+        </div>
+    </div>
+    <button id="show">Pokaż</button>
+    <button id="remove">Usuń</button>
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

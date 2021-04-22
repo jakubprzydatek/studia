@@ -1,0 +1,30 @@
+body{
+    display: flex;
+}
+
+.pushpin-list{
+    margin-left: 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.pl-title{
+    background-color: greenyellow;
+}
+
+button{
+    height: 50px;
+    background-color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10%;
+}
+
+button:hover{
+    height: 50px;
+    background-color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10%;
+    border-color: white;
+}
+
+

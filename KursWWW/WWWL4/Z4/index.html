@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>Zadanie 4</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+    <div class="users-container">
+        <table id="users-table">
+            <tr>
+                <th>Imię</th> <th>Nazwisko</th> <th>Miasto</th> <th>Kod pocztowy</th> <th>Data urodzenia</th>
+            </tr>
+        </table>
+    </div>
+    <button id="showBtn">Dodaj</button>
+    <div id="dialog" title="Wstaw dane użytkownika">
+        <div class="modal-content">
+            <form>
+            <fieldset>
+                <label for="name">Imię</label><br>
+                <input type="text" name="name" id="name" value="imie" class="text ui-widget-content ui-corner-all"><br>
+                <label for="surname">Nazwisko</label><br>
+                <input type="text" name="surname" id="surname" value="nazwisko" class="text ui-widget-content ui-corner-all"><br>
+                <label for="city">Miasto</label><br>
+                <input type="text" name="city" id="city" value="miasto" class="text ui-widget-content ui-corner-all"><br>
+                <label for="kod">Kod pocztowy</label><br>
+                <input type="text" name="kod" id="kod" value="kod pocztowy" class="text ui-widget-content ui-corner-all"><br>
+                <label for="date">Data</label><br>
+                <input type="text" name="date" id="datepicker" class="text ui-widget-content ui-corner-all">
+
+            </fieldset>
+            </form> 
+            <button id="addUsrBtn">Dodaj</button>
+        </div>
+    </div>
+    <div id="removeDialog" title="Czy na pewno usunąć?">
+        <button id="yesBtn">Tak</button>
+        <button id="noBtn">Nie</button>
+    </div>
+      
+    <script src="script.js"></script>
+</body>

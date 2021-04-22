@@ -1,0 +1,57 @@
+header{
+    margin-left: 25%;
+    background-color: blue;
+    height:80px;
+    width: 50%;
+}
+
+nav{
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 80px;
+}
+
+span{
+    background-color: salmon;
+    width: 20%;
+    border-style: solid;
+    border-width: 1;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+section{
+    background-color: seagreen;
+    width: 79%;
+    height: 500px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+article{
+    background-color:silver;
+    border-style: dotted;
+    border-width: 0.1px;
+    height: 100px;
+}
+
+.most_popular_articles{
+    width: 20%;
+}
+
+footer{
+    background-color: steelblue;
+    height: 30px;
+}
+
+.articles{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+

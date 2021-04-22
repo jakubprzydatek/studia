@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+
+.boxes{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+.box1{
+    background-color: rgb(110, 108, 255);
+    position: absolute;
+    left: 0px;
+    bottom: -140px;
+
+}
+
+.box2{
+    background-color: rgb(58, 77, 247);
+    position: absolute;
+    left: 150px;
+    bottom: -140px;
+}
+
+.box3{
+    background-color: rgb(53, 32, 241);
+    position: absolute;
+    left: 300px;
+    bottom: -140px;
+}
+
+.box4{
+    background-color: rgb(33, 33, 248);
+    position: absolute;
+    left: 450px;
+    bottom: -140px;
+}
+
+.box5{
+    background-color: rgb(2, 39, 247);
+    position: absolute;
+    left: 600px;
+    bottom: -140px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}

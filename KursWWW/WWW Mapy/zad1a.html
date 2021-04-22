@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+	<script type='text/javascript'>
+
+    function GetMap() {
+        var map = new Microsoft.Maps.Map('#myMap', {
+            credentials: 'Aq1pHBuXcN4VABhVT2pZ4SrPJjNALwdXKP5O7O8zbrMtRxEZkbmt3HGGTh3wGG3G',
+            center: new Microsoft.Maps.Location(47.6149, -122.1941)
+        });
+
+        var center = map.getCenter();
+
+        //Create a layer.
+        var layer = new Microsoft.Maps.Layer();
+
+        //Add some data to it.
+        layer.add(Microsoft.Maps.TestDataGenerator.getPushpins(5, map.getBounds()));
+        layer.add(Microsoft.Maps.TestDataGenerator.getPolygons(5, map.getBounds()));
+        layer.add(Microsoft.Maps.TestDataGenerator.getPolylines(20, map.getBounds()));
+
+        //Add layer to map.
+        map.layers.insert(layer);
+
+        //Add mouse events to the layer.
+        Microsoft.Maps.Events.addHandler(layer, 'click', function () { highlight('click'); });
+        Microsoft.Maps.Events.addHandler(layer, 'rightclick', function () { highlight('rightclick'); });
+        Microsoft.Maps.Events.addHandler(layer, 'mousedown', function () { highlight('mousedown'); });
+        Microsoft.Maps.Events.addHandler(layer, 'mouseout', function () { highlight('mouseout'); });
+        Microsoft.Maps.Events.addHandler(layer, 'mouseover', function () { highlight('mouseover'); });
+        Microsoft.Maps.Events.addHandler(layer, 'mouseup', function () { highlight('mouseup'); });
+    }
+
+    function highlight(id) {
+        //Highlight the mouse event div to indicate that the event has fired.
+        document.getElementById(id).style.background = 'LightGreen';
+
+        //Remove the highlighting after a second.
+        setTimeout(function () { document.getElementById(id).style.background = 'white'; }, 1000);
+    }
+    </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
+</head>
+<body>
+    <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+
+    <div id="click">click</div>
+    <div id="rightclick">rightclick</div>
+    <div id="mousedown">mousedown</div>
+    <div id="mouseout">mouseout</div>
+    <div id="mouseover">mouseover</div>
+    <div id="mouseup">mouseup</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>Zadanie 2</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadLists()">
+    <div class="kontener">
+        <div class="przymiotniki word">
+            <ul data-role="przymiotniki">
+                <li class="title_of_word">Przymiotniki</li>
+            </ul>
+        </div>
+        <div class="rzeczowniki word">
+            <ul data-role="rzeczowniki">
+                <li class="title_of_word">Rzeczowniki</li>
+            </ul>
+            
+        </div>
+        <div class="czasowniki word">
+            <ul data-role="czasowniki">
+                <li class="title_of_word">Czasowniki</li>
+            </ul>
+        </div>
+        <div class="przyslowki word">
+            <ul data-role="przyslowki">
+                <li class="title_of_word">Przysłówki</li>
+            </ul>
+        </div>
+    </div>
+    <button id="generateBS" onclick="generate()">Generuj zdanie</button>
+    <textarea id="generatedBS" placeholder="Wygenerowane zdanie"></textarea>
+    <script src="jquery-3.5.1.min.js" cols="300" rows="5"></script>
+    <script src="script.js"></script>
+</body>

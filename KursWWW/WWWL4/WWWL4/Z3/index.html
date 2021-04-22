@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Zadanie 3</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pic_gallery">
+        <div class="gallery_line">
+            <img src="pic1.jpg" id="pic1" alt="obrazek" data-marked="false">
+            <img src="pic2.jpg" id="pic2" alt="obrazek" data-marked="false">
+            <img src="pic3.jpg" id="pic3" alt="obrazek" data-marked="false">
+            <img src="pic4.jpg" id="pic4" alt="obrazek" data-marked="false">
+        </div>
+
+        <div class="gallery_line">
+            <img src="pic1.jpg" id="pic5" alt="obrazek" data-marked="false">
+            <img src="pic2.jpg" id="pic6" alt="obrazek" data-marked="false">
+            <img src="pic3.jpg" id="pic7" alt="obrazek" data-marked="false">
+            <img src="pic4.jpg" id="pic8" alt="obrazek" data-marked="false">
+        </div>
+
+        <div class="gallery_line">
+            <img src="pic1.jpg" id="pic9" alt="obrazek" data-marked="false">
+            <img src="pic2.jpg" id="pic10" alt="obrazek" data-marked="false">
+            <img src="pic3.jpg" id="pic11" alt="obrazek" data-marked="false">
+            <img src="pic4.jpg" id="pic12" alt="obrazek" data-marked="false">
+        </div>
+
+        <div class="gallery_line">
+            <img src="pic1.jpg" id="pic13" alt="obrazek" data-marked="false">
+            <img src="pic2.jpg" id="pic14" alt="obrazek" data-marked="false">
+            <img src="pic3.jpg" id="pic15" alt="obrazek" data-marked="false">
+            <img src="pic4.jpg" id="pic16" alt="obrazek" data-marked="false">
+        </div>
+        <form>
+            <input type="text" class="log" name="log" id="log">
+        </form>
+        <button onclick="markAll()">Zaznacz wszystko</button>
+        <button onclick="unmarkAll()">Odznacz wszystko</button>
+        <button onclick="listMarked()">Listuj</button>
+    </div>
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
