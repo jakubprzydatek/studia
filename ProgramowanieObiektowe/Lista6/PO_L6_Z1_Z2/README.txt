@@ -1,0 +1,1 @@
+Plik MainSerial przedstawia rozwiązanie zadania 1 a Main rozwiązanie zadania 2
